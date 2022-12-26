@@ -1,0 +1,62 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+  .section-03 {
+    display: flex;   
+    margin-top: 50px;
+    margin-left: 150px;  
+    margin-right: 150px;
+    border: solid 2px black; 
+
+.c-item-01 {
+  padding: 80px;
+  list-style: none;
+  margin-right: 60px;
+  input {
+    border: solid 1px black;
+    border-radius: 6px;
+  }
+  input:focus{
+    border: solid 1px red;
+  }
+  #submit {
+    border-radius: 6px;
+    margin-right: 6px;
+    padding: 6px 16px;
+    cursor: pointer;
+  }
+  #submit:hover{
+    background-color: orange;
+    transition: 0.5s;
+  }
+}
+
+.c-item-02{
+  padding: 80px;
+
+  .c-item-02-B{
+      display: flex;
+      margin-right: 10px;
+  }
+  .c-item-02-B li{
+      width: 100px;
+  }
+  .c-item-02-A li ul{
+      display: flex;
+  }
+  .c-item-02-A li ul li{
+      margin-right: 10px;
+
+  }
+}
+  }
+}

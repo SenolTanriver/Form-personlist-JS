@@ -1,0 +1,49 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-03 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid 2px black;
+  }
+  .section-03 .c-item-01 {
+    padding: 80px;
+    list-style: none;
+    margin-right: 60px;
+  }
+  .section-03 .c-item-01 input {
+    border: solid 1px black;
+    border-radius: 6px;
+  }
+  .section-03 .c-item-01 input:focus {
+    border: solid 1px red;
+  }
+  .section-03 .c-item-01 #submit {
+    border-radius: 6px;
+    margin-right: 6px;
+    padding: 6px 16px;
+    cursor: pointer;
+  }
+  .section-03 .c-item-01 #submit:hover {
+    background-color: orange;
+    transition: 0.5s;
+  }
+  .section-03 .c-item-02 {
+    padding: 80px;
+  }
+  .section-03 .c-item-02 .c-item-02-B {
+    display: flex;
+    margin-right: 10px;
+  }
+  .section-03 .c-item-02 .c-item-02-B li {
+    width: 100px;
+  }
+  .section-03 .c-item-02 .c-item-02-A li ul {
+    display: flex;
+  }
+  .section-03 .c-item-02 .c-item-02-A li ul li {
+    margin-right: 10px;
+  }
+}/*# sourceMappingURL=Section03.css.map */

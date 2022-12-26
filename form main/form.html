@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="Content/Styles/Base.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+
+<body>
+<section class="section-03">
+    <div class="c-item-01">
+
+        <form action="">
+         Ad:<br>
+          <input id="name" type="text" placeholder="Adı:" /> <br><br>
+          Soyad: <br>
+          <input id="surname" type="text" placeholder="Soyadı:" /> <br><br>
+          Yaş:<br>
+          <input id="age" type="text" placeholder="Yaşı:" /> <br><br>
+          Meslek:<br>
+          <input id="job" type="text" placeholder="Meslek:" /> <br><br>
+          Kilo:<br>
+          <input id="weight" type="text" placeholder="Kilo:" /> <br><br>
+          Boy:<br>
+          <input id="size" type="text" placeholder="Boy:" /> <br><br>
+          <input
+            id="submit"
+            type="button"
+            value="Ekle"
+            onclick="Filter.Actions.personAdd()"
+          />
+          <input type="reset" name="" id="submit">
+        </form>
+      </div>
+      <div class="c-item-02">
+          <ul class="c-item-02-A">
+              <li>
+                <ul class="c-item-02-B">
+                  <li>Adı Soyad</li>
+                  <li>Yaşı</li>
+                  <li>Meslek</li>
+                  <li>Kilo</li>
+                  <li>Boy</li>
+                </ul>
+              </li>
+            </ul>
+        <ul class="c-item-02-A" id="person-list">
+          
+        </ul>
+
+      </div>
+</section>
+
+    <script src="Content/Js/form.js"></script>
+
+</body>
+
+</html>
